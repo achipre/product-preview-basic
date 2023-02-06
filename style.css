@@ -77,7 +77,10 @@ body {
   justify-content: center;
   background-color: var(--primary-color);
   align-items: center;
-
+}
+.card .main .shop:hover {
+  cursor: pointer;
+  background-color: #be7a7a;
 }
 .card .main .shop svg {
   width: 24px;
@@ -98,6 +101,9 @@ body {
 }
 .social svg {
   height: 36px;
+}
+.social svg:hover path{
+  fill: #1A120B;
 }
 
 /* Pantallas superiores */
