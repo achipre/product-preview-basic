@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   place-self: center;
   height: auto;
+  border-radius: 12px;
 }
 .card img {
   width: 100%;
